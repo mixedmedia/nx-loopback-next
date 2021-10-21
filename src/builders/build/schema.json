@@ -3,12 +3,17 @@
     "type": "object",
     "required": [
         "appPath",
-        "tsConfig"
+        "tsConfig",
+        "outputPath"
     ],
     "properties": {
         "appPath": {
             "type": "string",
-            "description": "path to the application"
+            "description": "path to the application source"
+        },
+        "outputPath": {
+            "type": "string",
+            "description": "path to the application dist"
         },
         "tsConfig": {
             "type": "string",
